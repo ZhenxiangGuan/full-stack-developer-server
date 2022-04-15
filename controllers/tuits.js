@@ -3,7 +3,8 @@ export default [
     "_id": "123",
     "topic": "Web Development",
 
-      "username": "ReactJS",
+    "postedBy":{
+      "username": "ReactJS"},
 
     "liked": true,
     "disliked":false,
@@ -27,8 +28,8 @@ export default [
   {
     "_id": "567",
     "topic": "Space",
-
-      "username": "SpaceX",
+    "postedBy":{
+      "username": "SpaceX"},
 
     "liked": false,
     "disliked":false,
@@ -54,8 +55,8 @@ export default [
   {
     "_id": "234",
     "topic": "Space",
-      "username": "Scott Manley"
-  ,
+    "postedBy":{
+      "username": "Scott Manley"},
     "liked": true,
     "disliked":false,
     "verified": true,
@@ -77,8 +78,8 @@ export default [
   {
     "_id": "345",
     "topic": "Web Development",
-
-      "username": "jQuery",
+    "postedBy":{
+      "username": "Jquery"},
     "liked": false,
     "disliked":false,
     "verified": false,
@@ -100,8 +101,8 @@ export default [
     "_id": "456",
     "topic": "Web Development",
 
-      "username": "NodeJS",
-
+    "postedBy":{
+      "username": "NodeJS"},
     "liked": true,
     "disliked":false,
     "verified": true,
@@ -114,9 +115,8 @@ export default [
     "tuits": "120K",
     "likes": 345,
     "dislikes": 111,
-
-      "comments": 123,
-      "retuits": 234,
+    "comments": 123,
+    "retuits": 234,
 
   }
 ]
