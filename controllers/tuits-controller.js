@@ -21,7 +21,7 @@ const createTuit = async (req, res) => {
     "comments": 222,
     "retuits": 111,
     "dislikes": 121,
-    "logo_image": "./gg.jpg",
+    "logo_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png",
 
     ...req.body
   }
