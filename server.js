@@ -6,8 +6,10 @@ import cors from 'cors';
 import userController
   from "./controllers/user-controller.js";
 import tuitController from "./controllers/tuits-controller.js";
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING
+const CONNECTION_STRING =  process.env.DB_CONNECTION_STRING
     || 'mongodb://localhost:27017/webdev'
+// "mongodb+srv://stevenguan1123:001123Gzx@cluster0.q6nzw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+
 mongoose.connect(CONNECTION_STRING);
 
 const app = express();
